@@ -4,6 +4,7 @@
   "description": "Generates package.json dependencies from node_modules folder",
   "main": "index.js",
   "bin": "cmd.js",
+  "repository": "https://github.com/davidmarkclements/npm-depgen",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
