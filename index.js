@@ -4,8 +4,8 @@ var through = require('through');
 process.stdin.resume();
 
 function map(dep) {
-  var gen = {};
-  gen[dep.from.slice(0, -1)] = dep.version;
+  var gen ={};
+  gen[dep.from.split('@')[0]] = dep.version;
   return gen;
 }
 
