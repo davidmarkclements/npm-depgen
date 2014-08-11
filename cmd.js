@@ -6,7 +6,7 @@ var argv = require('optimist').argv;
 var package;
 function tryPackage() {
   try {
-    package = require('./package.json');
+    package = require(process.cwd() + '/package.json');
   } catch (e) {}
 }
 
